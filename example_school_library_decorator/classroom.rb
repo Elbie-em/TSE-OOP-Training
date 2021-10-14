@@ -1,4 +1,4 @@
-require_relative 'student.rb'
+require_relative 'student'
 
 class Classroom
   attr_accessor :label
@@ -17,7 +17,7 @@ end
 
 class_a = Classroom.new('Grade 10')
 
-std = Student.new(19,'John')
+std = Student.new(19, 'John')
 
 class_a.add_student(std)
 
